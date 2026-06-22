@@ -1,22 +1,14 @@
-
-
-
-
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; 
-
-
+import splashAnimation from "./assets/lottie/splashAnimation";
 
 const splashScreen = {
-  enabled: true, 
+  enabled: true,
   animation: splashAnimation,
-  duration: 2000 
+  duration: 2000
 };
 
-
-
 const illustration = {
-  animated: true 
+  animated: true
 };
 
 const greeting = {
@@ -24,14 +16,10 @@ const greeting = {
   title: "Hi all, I'm Isaro",
   subTitle: emoji(
     "First-year Computer Science student with a keen interest in software development, programming, and emerging technologies. Eager to apply academic knowledge to practical projects while developing strong technical and problem-solving skills."
-
   ),
-  resumeLink:
-    "https://www.overleaf.com/project/6a37fd714cb88569de68e4a8", 
-  displayGreeting: true 
+  resumeLink: "https://www.overleaf.com/project/6a37fd714cb88569de68e4a8",
+  displayGreeting: true
 };
-
-
 
 const socialMediaLinks = {
   display: true,
@@ -39,12 +27,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/isaro-ntete-8b93372a8/8b9337a8/",
   gmail: "henriettenteteisaro@gmail.com",
   facebook: "https://www.facebook.com/"
-  
- 
-  
 };
-
-
 
 const skillsSection = {
   title: "What I do",
@@ -59,7 +42,6 @@ const skillsSection = {
     )
   ],
 
- 
   softwareSkills: [
     {
       skillName: "Html",
@@ -76,17 +58,13 @@ const skillsSection = {
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
-    },
-    
-    
+    }
   ],
-  display: true 
+  display: true
 };
 
-
-
 const educationInfo = {
-  display: true, 
+  display: true,
   schools: [
     {
       schoolName: "Gisma university of applied sciences",
@@ -101,19 +79,16 @@ const educationInfo = {
       subHeader: "High school ",
       duration: "September 2021 - July 2024",
       desc: "Ranked top 10% in the program."
-      
     }
   ]
 };
 
-
-
 const techStack = {
-  viewSkillBars: true, 
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Frontend/Design", 
-      progressPercentage: "20%" 
+      Stack: "Frontend/Design",
+      progressPercentage: "20%"
     },
     {
       Stack: "Visualization",
@@ -127,15 +102,14 @@ const techStack = {
   displayCodersrank: true
 };
 
-
 const workExperiences = {
-  display: true, 
+  display: true,
   experience: [
     {
       role: "Junior Front-End developer",
       company: "Freelance/ Tec project ",
       companylogo: require("./assets/images/Flogo.png"),
-      date: "oct 2025 – Present",
+      date: "may 2025 – December 2025",
       desc: " balancing academic studies at Gisma University of Applied science while building responsive web application and managing versin control pipelines.",
       descBullets: [
         "Developing and maintaining modular user interfaces using react.js, HTML5, and modern css frameworks",
@@ -147,19 +121,14 @@ const workExperiences = {
       company: "KFC Rwanda",
       companylogo: require("./assets/images/Klogo.png"),
       date: "May 2024 – sept 2024",
-      desc: "Developed team work skills.",
-    },
-    
+      desc: "Developed team work skills."
+    }
   ]
 };
 
-
-
 const openSource = {
-  showGithubProfile: "true",
+  showGithubProfile: "true"
 };
-
-
 
 const bigProjects = {
   title: "Every child deserves a home",
@@ -168,39 +137,19 @@ const bigProjects = {
     {
       image: require("./assets/images/project.png"),
       projectName: "Every Child Deserves a Home",
-      projectDesc: "built a fully responsive portfolio interface featuring modern UI layouts and component-driven architecture using react components",
-      footerLink: [
-        
-       
-      ]
-    },
-   
+      projectDesc:
+        "built a fully responsive portfolio interface featuring modern UI layouts and component-driven architecture using react components",
+      footerLink: []
+    }
   ],
-  display: true 
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
+  display: true
 };
 
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
 
- 
-  display: true 
+  display: true
 };
 
 const contactInfo = {
@@ -211,36 +160,36 @@ const contactInfo = {
   email_address: "henriettenteteisaro@gmail.com"
 };
 
-
-
 const twitterDetails = {
-  userName: "twitter", 
-  display: true 
+  userName: "twitter",
+  display: true
 };
-const opensource= {
-  githubUserName: "henriettenteteisaro-pixel",
-display: false
-};
-const achievementSection={
+// const opensource= {
+//   githubUserName: "henriettenteteisaro-pixel",
+// display: true
+// };
+const achievementSection = {
   display: false,
-  achievementsCards:[]
+  achievementsCards: []
 };
 
 const blogSection = {
   title: "Blogs",
-  subtitles: "with love for developing cool stuff, I love to write and teach others what i have learnt",
+  subtitles:
+    "with love for developing cool stuff, I love to write and teach others what i have learnt",
   display: false,
   blogs: [
     {
-      url:"https:// example.com/blog",
+      url: "https:// example.com/blog",
       title: "my first blog",
       description: "a despriction of my first blog post entry."
     }
   ]
 };
-const talkSection = { 
+const talkSection = {
   title: "talks",
-  subtitle: "MUTUAL EXCHANGE OF IDEAS, EXPERIENCE AND KNOWLEDGE THROUGH PUBLIC SPEAKING.",
+  subtitle:
+    "MUTUAL EXCHANGE OF IDEAS, EXPERIENCE AND KNOWLEDGE THROUGH PUBLIC SPEAKING.",
   display: false,
   talks: [
     {
@@ -256,8 +205,8 @@ const podcastSection = {
   subtitle: "A platform for sharing insights and stories.",
   display: false,
   podcast: []
-}
-const isHireable = false; 
+};
+const isHireable = false;
 export {
   illustration,
   greeting,
