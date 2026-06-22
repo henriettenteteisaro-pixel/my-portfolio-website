@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/henriettenteteisaro-pixel/my-portfolio-website/static/css/main.2a5bd5e4.css",
+    "main.js": "/henriettenteteisaro-pixel/my-portfolio-website/static/js/main.ea6ac196.js",
+    "static/css/64.bba8fa55.chunk.css": "/henriettenteteisaro-pixel/my-portfolio-website/static/css/64.bba8fa55.chunk.css",
+    "static/js/64.56dc6704.chunk.js": "/henriettenteteisaro-pixel/my-portfolio-website/static/js/64.56dc6704.chunk.js",
+    "static/css/769.b3cbb36b.chunk.css": "/henriettenteteisaro-pixel/my-portfolio-website/static/css/769.b3cbb36b.chunk.css",
+    "static/js/769.bda0d7b7.chunk.js": "/henriettenteteisaro-pixel/my-portfolio-website/static/js/769.bda0d7b7.chunk.js",
+    "static/media/resume.pdf": "/henriettenteteisaro-pixel/my-portfolio-website/static/media/resume.52faa305fd2ed094b710.pdf",
+    "static/media/Montserrat-Regular.ttf": "/henriettenteteisaro-pixel/my-portfolio-website/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/project.png": "/henriettenteteisaro-pixel/my-portfolio-website/static/media/project.350a80254fea95725dfa.png",
+    "static/media/Klogo.png": "/henriettenteteisaro-pixel/my-portfolio-website/static/media/Klogo.8da0da2d92d4fb4777bd.png",
+    "static/media/Agustina.woff": "/henriettenteteisaro-pixel/my-portfolio-website/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/manOnTable.svg": "/henriettenteteisaro-pixel/my-portfolio-website/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/Gisma logo.png": "/henriettenteteisaro-pixel/my-portfolio-website/static/media/Gisma logo.947be95f2aac8bfbc698.png",
+    "static/media/contactMailDark.svg": "/henriettenteteisaro-pixel/my-portfolio-website/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/henriettenteteisaro-pixel/my-portfolio-website/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/Flogo.png": "/henriettenteteisaro-pixel/my-portfolio-website/static/media/Flogo.05daa485d50a3ad45fc5.png",
+    "static/media/Slogo.png": "/henriettenteteisaro-pixel/my-portfolio-website/static/media/Slogo.810d46e07fc3c5e0ecda.png",
+    "static/media/skill.svg": "/henriettenteteisaro-pixel/my-portfolio-website/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "index.html": "/henriettenteteisaro-pixel/my-portfolio-website/index.html",
+    "static/media/talksCardBack.svg": "/henriettenteteisaro-pixel/my-portfolio-website/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.2a5bd5e4.css.map": "/henriettenteteisaro-pixel/my-portfolio-website/static/css/main.2a5bd5e4.css.map",
+    "main.ea6ac196.js.map": "/henriettenteteisaro-pixel/my-portfolio-website/static/js/main.ea6ac196.js.map",
+    "64.bba8fa55.chunk.css.map": "/henriettenteteisaro-pixel/my-portfolio-website/static/css/64.bba8fa55.chunk.css.map",
+    "64.56dc6704.chunk.js.map": "/henriettenteteisaro-pixel/my-portfolio-website/static/js/64.56dc6704.chunk.js.map",
+    "769.b3cbb36b.chunk.css.map": "/henriettenteteisaro-pixel/my-portfolio-website/static/css/769.b3cbb36b.chunk.css.map",
+    "769.bda0d7b7.chunk.js.map": "/henriettenteteisaro-pixel/my-portfolio-website/static/js/769.bda0d7b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a5bd5e4.css",
+    "static/js/main.ea6ac196.js"
+  ]
+}
