@@ -23,25 +23,25 @@ const greeting = {
   username: "Henriette Ntete Isaro",
   title: "Hi all, I'm Isaro",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "First-year Computer Science student with a keen interest in software development, programming, and emerging technologies. Eager to apply academic knowledge to practical projects while developing strong technical and problem-solving skills."
+
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://www.overleaf.com/project/6a37fd714cb88569de68e4a8", 
   displayGreeting: true 
 };
 
 
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  display: true,
+  github: "https://github.com/henriettenteteisaro-pixel/computer-science-portfolio-",
+  linkedin: "https://www.linkedin.com/in/isaro-ntete-8b93372a8/8b9337a8/",
   gmail: "henriettenteteisaro@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
- a
-  display: true 
+  facebook: "https://www.facebook.com/"
+  
+ 
+  
 };
 
 
@@ -81,6 +81,7 @@ const skillsSection = {
     
   ],
   display: true 
+};
 
 
 
@@ -89,22 +90,19 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Gisma university of applied sciences",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/Gisma logo.png"),
       subHeader: "bachelor of Science in Computer Science",
       duration: "june 2025- december 2028",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      desc: "gaining a strong foundation in computer science principles."
     },
     {
-      schoolName: "American school of Antananarivo",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of high",
+      schoolName: "Stella Matutina",
+      logo: require("./assets/images/Slogo.png"),
+      subHeader: "High school ",
       duration: "September 2021 - July 2024",
-      desc: "Ranked top 10% in the program.",
+      desc: "Ranked top 10% in the program."
       
+    }
   ]
 };
 
@@ -118,15 +116,15 @@ const techStack = {
       progressPercentage: "20%" 
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Visualization",
+      progressPercentage: "60%"
     },
     {
       Stack: "Programming",
       progressPercentage: "40%"
     }
   ],
-  displayCodersrank: false 
+  displayCodersrank: True
 };
 
 
@@ -136,20 +134,20 @@ const workExperiences = {
     {
       role: "Junior Front-End developer",
       company: "Freelance/ Tec project ",
-      companylogo: require("./assets/images/developerLogo.png"),
+      companylogo: require("./assets/images/Flogo.png"),
       date: "oct 2025 – Present",
       desc: " balancing academic studies at Gisma University of Applied science while building responsive web application and managing versin control pipelines.",
       descBullets: [
-        "Developing and maintaaining modular user interfaces using react.js, HTML5, and modern css frameworks",
+        "Developing and maintaining modular user interfaces using react.js, HTML5, and modern css frameworks",
         "configuraing local development envirnments, debugging runtime errors, and optimizing code structure for scalability"
       ]
     },
     {
-      role: "web development intern",
-      company: "Quklab innovation hub",
-      companylogo: require("./assets/images/klabLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "translated figma design wireframes into clean, semantic HTML5 and CSS3 code blocks.",
+      role: "Kitchen Assistant",
+      company: "KFC Rwanda",
+      companylogo: require("./assets/images/Klogo.png"),
+      date: "May 2024 – sept 2024",
+      desc: "Developed team work skills.",
     },
     
   ]
@@ -168,7 +166,7 @@ const bigProjects = {
   subtitle: "SOCIAL IMPACT AND PLATFORM DEVELOPMENT INITIATIVES",
   projects: [
     {
-      image: require("./assets/images/everychildLogo.webp"),
+      image: require("./assets/images/project.png"),
       projectName: "Every Child Deserves a Home",
       projectDesc: "built a fully responsive portfolio interface featuring modern UI layouts and component-driven architecture using react components",
       footerLink: [
@@ -179,23 +177,23 @@ const bigProjects = {
    
   ],
   display: true 
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
 };
-
-
-
-
-  ],
-  display: true 
-};
-
-
-
-
-
-
-
-};
-
 
 const resumeSection = {
   title: "Resume",
@@ -218,7 +216,47 @@ const contactInfo = {
 const twitterDetails = {
   userName: "twitter", 
   display: true 
+};
+const opensource= {
+  githubUserName: "henriettenteteisaro-pixel",
+display: false
+};
+const achievementSection={
+  display: false,
+  achievementsCards:[]
+};
 
+const blogSection = {
+  title: "Blogs",
+  subtitles: "with love for developing cool stuff, I love to write and teach others what i have learnt",
+  display: false,
+  blogs: [
+    {
+      url:"https:// example.com/blog",
+      title: "my first blog",
+      description: "a despriction of my first blog post entry."
+    }
+  ]
+};
+const talkSection = { 
+  title: "talks",
+  subtitle: "MUTUAL EXCHANGE OF IDEAS, EXPERIENCE AND KNOWLEDGE THROUGH PUBLIC SPEAKING.",
+  display: false,
+  talks: [
+    {
+      title: "my first talk",
+      subtitle: " presentation",
+      slides_url: "https://example.com/slides",
+      event_url: "https://example.com/event"
+    }
+  ]
+};
+const podcastSection = {
+  title: "podcast",
+  subtitle: "A platform for sharing insights and stories.",
+  display: false,
+  podcast: []
+}
 const isHireable = false; 
 export {
   illustration,
@@ -229,12 +267,12 @@ export {
   educationInfo,
   techStack,
   workExperiences,
-  openSource,
   bigProjects,
-  
-  
+  openSource,
+  achievementSection,
+  blogSection,
   talkSection,
-  
+  podcastSection,
   contactInfo,
   twitterDetails,
   isHireable,
