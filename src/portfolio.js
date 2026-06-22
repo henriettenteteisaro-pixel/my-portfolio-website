@@ -35,7 +35,7 @@ const greeting = {
 
 const socialMediaLinks = {
   display: true,
-  github: "https://github.com/henriettenteteisaro-pixel/computer-science-portfolio-",
+  github: "https://github.com/henriettenteteisaro-pixel/my-portfolio-website",
   linkedin: "https://www.linkedin.com/in/isaro-ntete-8b93372a8/8b9337a8/",
   gmail: "henriettenteteisaro@gmail.com",
   facebook: "https://www.facebook.com/"
@@ -92,7 +92,7 @@ const educationInfo = {
       schoolName: "Gisma university of applied sciences",
       logo: require("./assets/images/Gisma logo.png"),
       subHeader: "bachelor of Science in Computer Science",
-      duration: "june 2025- december 2028",
+      duration: "June 2025- december 2028",
       desc: "gaining a strong foundation in computer science principles."
     },
     {
@@ -124,7 +124,7 @@ const techStack = {
       progressPercentage: "40%"
     }
   ],
-  displayCodersrank: True
+  displayCodersrank: true
 };
 
 
